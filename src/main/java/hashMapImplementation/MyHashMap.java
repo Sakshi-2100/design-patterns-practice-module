@@ -26,7 +26,7 @@ public class MyHashMap<K,V> {
         return (val < 0) ? 1 : (val >= MAX_CAPACITY) ? MAX_CAPACITY : val + 1;
     }
 
-    class Entry<K,V>{
+    static class Entry<K,V>{
         public K key;
         public V value;
         public Entry next;
