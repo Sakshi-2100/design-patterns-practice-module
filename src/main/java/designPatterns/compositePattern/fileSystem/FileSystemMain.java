@@ -1,4 +1,4 @@
-package designPatterns.compositePattern;
+package designPatterns.compositePattern.fileSystem;
 
 public class FileSystemMain {
     public static void main(String[] args) {
